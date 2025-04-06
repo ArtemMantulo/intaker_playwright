@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+     
+      "target": "ES2019" ,
+      "module": "CommonJS",
+      
+      "strict": true,
+      "paths": {
+        "@v4components/*": ["./src/main/v4/components/*"],
+        "@components/*": ["./src/main/components/*"],
+        "@v4pages/*": ["./src/main/v4/pages/*"],
+        "@pwapages/*": ["./src/main/pwa/*"],
+        "@apps/*": ["./src/main/apps/*"],
+        "@phr/*": ["./src/main/phr/*"],
+        "@v3pages/*": ["./src/main/v3/pages/*"],
+        "@server/*": ["./src/main/server/pages/*"],
+        "@v3resources/*": ["./src/test/v3/resources/*"],
+        "@srvcommonactions/*": ["./src/test/server/tests/common-test-actions/*"],
+        "@V3commonactions/*": ["./src/test/v3/tests/commonactions/*"],
+        "@v4tests/*": ["./src/test/v4/tests/*"],
+        "@data/*": ["./src/main/common/data/*"],
+        "@utils/*": ["./src/main/common/utils/*"],
+        "@tags/*": ["./src/main/common/tags/*"],
+        "@config/*": ["./config/*"],
+        "@test-actions/*": ["./src/main/v4/pages/*"],
+        "@cccomponents/*": ["./src/main/cc/components/*"],
+        "@ccpages/*": ["./src/main/cc/pages/*"],
+        "@ccbase/*": ["./src/main/cc/*"]
+      } 
+      ,
+      "skipLibCheck": true ,
+      "forceConsistentCasingInFileNames": true
+    }
+  }
+  
